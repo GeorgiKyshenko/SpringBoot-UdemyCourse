@@ -1,7 +1,10 @@
 package com.example.springbootudemy.models;
 
+import lombok.Setter;
+
+@Setter
 public class Course {
-    private int id;
+    private long id;
     private String courseName;
     private String author;
 
@@ -11,7 +14,7 @@ public class Course {
         this.author = author;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
