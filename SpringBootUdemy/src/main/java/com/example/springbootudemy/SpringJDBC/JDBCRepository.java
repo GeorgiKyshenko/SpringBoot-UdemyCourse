@@ -1,4 +1,4 @@
-package com.example.springbootudemy.executingQueries;
+package com.example.springbootudemy.SpringJDBC;
 
 import com.example.springbootudemy.models.Book;
 import com.example.springbootudemy.models.Course;
