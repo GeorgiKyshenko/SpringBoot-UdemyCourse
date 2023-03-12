@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component this component works with "application-prod.properties"
 public class JDBCCommandLineRunner implements CommandLineRunner {
     // im using one CommandLineRunner class for testing SpringJDBC and SpringJPA
     private JDBCRepository jdbcRepository;
